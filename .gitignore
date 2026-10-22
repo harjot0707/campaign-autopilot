@@ -1,0 +1,20 @@
+# secrets — NEVER committed
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# your data layer outputs
+*.duckdb
+*.duckdb.wal
+data/raw/*.csv        # large generated files
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# OS
+.DS_Store
