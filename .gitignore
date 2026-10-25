@@ -10,7 +10,9 @@ venv/
 # your data layer outputs
 *.duckdb
 *.duckdb.wal
-data/raw/*.csv        # large generated files
+
+# large generated files
+data/raw/*.csv
 
 # dbt
 dbt/target/
