@@ -22,5 +22,5 @@ campaign-autopilot/
 ├── tests/                  # pytest: schema, rules, render, SQL
 └── docs/                   # decisions, demo script, screenshots
 
--Stack: DuckDB (Snowflake-portable SQL), dbt, Pydantic v2, python-liquid, Anthropic API, Streamlit.
--Rule: synthetic data only — no real loyalty or member data, ever.
+- Stack: DuckDB (Snowflake-portable SQL), dbt, Pydantic v2, python-liquid, Anthropic API, Streamlit.
+- Rule: synthetic data only — no real loyalty or member data, ever.
